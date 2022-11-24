@@ -1,0 +1,79 @@
+*{margin: 0; padding: 0;}
+html,body{
+    width: 100%;
+}
+.caculatorBody{
+    margin: 25px auto;
+    border: 1px solid lightblue;
+    width: 378px;
+    height: 390px;
+    box-shadow: 0px 1px 0px rgb(187, 217, 227);
+    box-sizing: border-box;
+}
+
+.display{
+    margin: 15px;
+    width: 342px;
+    height: 54px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.display:hover{
+    box-shadow: 0px 0px 2px gray;
+}
+
+.operator{
+    margin: 0px 15px;
+    box-sizing: border-box;
+}
+
+.operator button.casioBtn{
+    background-color: lightgray;
+    
+}
+button.casioBtn{
+    box-sizing: border-box;
+    width: 75px;
+    height: 42px;
+    margin-left:  10px;
+    margin-bottom: 15px;
+    background-color: rgb(223, 235, 238);
+    font-size: 20px;
+}
+
+button.casioBtn:hover{
+    box-shadow: 0px 0px 2px gray;
+}
+
+button.casioBtn:active{
+    font-weight: bold;
+}
+
+button.casioBtn:nth-child(1){
+    margin-left: 0px;
+}
+
+.numberEqual{
+    margin: 0px 15px;
+    box-sizing: border-box;
+}
+
+.numberEqual .numnber{
+    width: 253px;
+    float: left;
+}
+
+.numberEqual button.casioBtn:nth-child(3n+1){
+    margin-left: 0px;
+}
+
+button.equal{
+    box-sizing: border-box;
+    width: 75px;
+    height: 42px;
+    margin-left:  14px;
+    margin-bottom: 15px;
+    background-color: rgb(45, 111, 191);
+    height: 213px;
+}
