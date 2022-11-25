@@ -4,10 +4,10 @@ html,body{
 }
 .caculatorBody{
     margin: 25px auto;
-    border: 1px solid lightblue;
+    border: 1px solid gray;
     width: 378px;
     height: 390px;
-    box-shadow: 0px 1px 0px rgb(187, 217, 227);
+    box-shadow: 0px 1px 0px gray;
     box-sizing: border-box;
 }
 
@@ -17,6 +17,13 @@ html,body{
     height: 54px;
     border: 1px solid gray;
     box-sizing: border-box;
+    display:flex;
+    justify-content: end;
+    align-items:center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px;
+    overflow: hidden;
 }
 
 .display:hover{
@@ -59,7 +66,7 @@ button.casioBtn:nth-child(1){
     box-sizing: border-box;
 }
 
-.numberEqual .numnber{
+.numberEqual .number{
     width: 253px;
     float: left;
 }
